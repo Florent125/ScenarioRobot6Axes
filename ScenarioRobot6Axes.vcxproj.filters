@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extApi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extApiPlatform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="leafOpcUaClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sampleclient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samplesubscription.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenarioRobot6Axes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shutdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extApiPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="leafOpcUaClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sampleclient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="samplesubscription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenarioRobot6Axes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shutdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f8c02e99-7e92-4ac6-8158-6ad30f96693a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ada5e590-52eb-49cc-a023-d21f97352bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d47f8bdb-7a84-4922-be26-3bbdcbab0a81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\UnifiedAutomation\UaSdkCppBundlePubSubEval\bin\mySampleconfig.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
