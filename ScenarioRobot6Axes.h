@@ -21,6 +21,7 @@ typedef enum stateMachineStep_enum /*Machine State step for connecting Vrep and 
 	STATE_TESTING_PURPOSE /*Testing State*/
 };
 
+
 typedef enum connectionType_enum /*Connection type between Vrep and the programming software*/
 {
 	TYPE_OPCUA, /*OpcUa connection*/
