@@ -42,7 +42,6 @@ int main(int, char* [])
 	UaString sConfigFile(getAppPath());
 	sConfigFile += "/mySampleconfig.ini";
 
-
 	//Create configuration object and load configuration
 	Configuration* pMyConfiguration = new Configuration();
 
